@@ -35,10 +35,11 @@ namespace _13ESZFirstHomeDissertation
                     arrSum += arr[counter];
                     if (arr[counter] >= 4000 && arr[counter] < 5000) { avgBetween4T5T[0] += arr[counter]; avgBetween4T5T[1]++; };
                     if (sixtyFiveIndex < 0) { FindSixtyFive(counter,arr[counter]); }
-                    if ((arr[counter].ToString())[0].ToString() == "3") { beginnWithThree++; }
+                    if (arr[counter].ToString()[0] == 51) { beginnWithThree++; }
+                    //if ((arr[counter].ToString())[0].ToString() == "3") { beginnWithThree++; }Alternatív megoldás...
                     if (salaryIndex < 0 && arr[counter] >= 1800) { salaryIndex = counter; }
                     if (arr[counter] % 100 == 0) { numbersWithHundreds.Add(arr[counter]); }
-                    if (!myBirthDayIsInIt) { myBirthDayIsInIt = arr[counter] == 1980; }
+                    if (!myBirthDayIsInIt) { myBirthDayIsInIt = arr[counter] == ((1981 / 10) * 10); }
 
                     counter++;
                 }
