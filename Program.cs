@@ -14,6 +14,7 @@ namespace _13ESZFirstHomeDissertation
         static List<int> numbersWithHundreds = new List<int>();
         static void Main(string[] args)
         {
+            SixtyFiveS();
             int[] arr = new int[100];
             Random x = new Random();
             int counter = 0;
@@ -47,7 +48,7 @@ namespace _13ESZFirstHomeDissertation
             Console.WriteLine($"A 4000-nél nem kissebb és az 5000-nél kissebb elemek átlaga {avgBetween4T5T[0]/avgBetween4T5T[1]}.");
             Console.WriteLine($"A tömbben {(sixtyFiveIndex > -1? "található oylan szám ami 65-nek a többszöröse.":"nem található olyan szám ami 65-nek a többszöröse.")}" +
                 $" Az index így: {sixtyFiveIndex}, a szám: {(sixtyFiveIndex > -1? arr[sixtyFiveIndex]:-1)}.");
-            Console.WriteLine($"A tömbben {beginnWithThree} darab 3 számmal kezdődő szám van.");
+            Console.WriteLine($"A tömbben {beginnWithThree} darab 3-as számmal kezdődő szám van.");
             Console.WriteLine($"Véleményem szerint az elfogadható junior órabér {arr[salaryIndex]} Forint.");
             Console.WriteLine($"A következő számok tartalmaztak százasokat:");
             PrintHundredList();
@@ -81,7 +82,7 @@ namespace _13ESZFirstHomeDissertation
             int startNumber = 62;
             int increaseNumber = 65;
 
-            while(number < 5000)
+            while(number < 4935)
             {
                 number = startNumber * increaseNumber;
                 sixtyFiveS.Add(number);
