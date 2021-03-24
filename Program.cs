@@ -29,8 +29,8 @@ namespace _13ESZFirstHomeDissertation
                 {
                     arr[counter] = ranNumber;
                     Console.Write($"{arr[counter]}; ");
+                    if ((counter+1) % 7 == 6) { Console.ForegroundColor = ConsoleColor.Green; } else { Console.ForegroundColor = ConsoleColor.White; }
                     if ((counter+1) % 10 == 0) { Console.WriteLine();}
-                    if ((counter) % 7 == 6) { Console.ForegroundColor = ConsoleColor.Green; } else { Console.ForegroundColor = ConsoleColor.White; }
                     arrSum += arr[counter];
                     if (arr[counter] >= 4000 && arr[counter] < 5000) { avgBetween4T5T[0] += arr[counter]; avgBetween4T5T[1]++; };
                     if (sixtyFiveIndex < 0) { FindSixtyFive(counter,arr[counter]); }
@@ -43,15 +43,15 @@ namespace _13ESZFirstHomeDissertation
                 }
             }  
             Console.WriteLine();
-            Console.WriteLine($"A tömb elemeinek összege {arrSum}");
-            Console.WriteLine($"A 4000-nél nem kissebb és az 5000-nél kissebb elemek átlaga {avgBetween4T5T[0]/avgBetween4T5T[1]}");
+            Console.WriteLine($"A tömb elemeinek összege {arrSum}.");
+            Console.WriteLine($"A 4000-nél nem kissebb és az 5000-nél kissebb elemek átlaga {avgBetween4T5T[0]/avgBetween4T5T[1]}.");
             Console.WriteLine($"A tömbben {(sixtyFiveIndex > -1? "található oylan szám ami 65-nek a többszöröse.":"nem található olyan szám ami 65-nek a többszöröse.")}" +
-                $" Az index így: {sixtyFiveIndex}, a szám: {(sixtyFiveIndex > -1? arr[sixtyFiveIndex]:-1)}");
+                $" Az index így: {sixtyFiveIndex}, a szám: {(sixtyFiveIndex > -1? arr[sixtyFiveIndex]:-1)}.");
             Console.WriteLine($"A tömbben {beginnWithThree} darab 3 számmal kezdődő szám van.");
-            Console.WriteLine($"Véleményem szerint az elfogadható junior fizetés {arr[salaryIndex]} Forint ");
+            Console.WriteLine($"Véleményem szerint az elfogadható junior órabér {arr[salaryIndex]} Forint.");
             Console.WriteLine($"A következő számok tartalmaztak százasokat:");
             PrintHundredList();
-            Console.WriteLine($"A születési évem öttel osztható változata {(myBirthDayIsInIt?"szerepel":"nem szerepel")} a tömbben. ");
+            Console.WriteLine($"A születési évem öttel osztható változata {(myBirthDayIsInIt?"szerepel":"nem szerepel")} a tömbben.");
 
             Console.ReadKey();
         }

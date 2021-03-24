@@ -5,3 +5,10 @@ C:\VisualStudioIskolaProjects\13ESZFirstHomeDissertation\obj\Debug\13ESZFirstHom
 C:\VisualStudioIskolaProjects\13ESZFirstHomeDissertation\obj\Debug\13ESZFirstHomeDissertation.csproj.CoreCompileInputs.cache
 C:\VisualStudioIskolaProjects\13ESZFirstHomeDissertation\obj\Debug\13ESZFirstHomeDissertation.exe
 C:\VisualStudioIskolaProjects\13ESZFirstHomeDissertation\obj\Debug\13ESZFirstHomeDissertation.pdb
+C:\Users\Tomi\Desktop\GitHubRepositories\Web\13ESZFirstHomeDissertation\bin\Debug\13ESZFirstHomeDissertation.exe.config
+C:\Users\Tomi\Desktop\GitHubRepositories\Web\13ESZFirstHomeDissertation\bin\Debug\13ESZFirstHomeDissertation.exe
+C:\Users\Tomi\Desktop\GitHubRepositories\Web\13ESZFirstHomeDissertation\bin\Debug\13ESZFirstHomeDissertation.pdb
+C:\Users\Tomi\Desktop\GitHubRepositories\Web\13ESZFirstHomeDissertation\obj\Debug\13ESZFirstHomeDissertation.csprojAssemblyReference.cache
+C:\Users\Tomi\Desktop\GitHubRepositories\Web\13ESZFirstHomeDissertation\obj\Debug\13ESZFirstHomeDissertation.csproj.CoreCompileInputs.cache
+C:\Users\Tomi\Desktop\GitHubRepositories\Web\13ESZFirstHomeDissertation\obj\Debug\13ESZFirstHomeDissertation.exe
+C:\Users\Tomi\Desktop\GitHubRepositories\Web\13ESZFirstHomeDissertation\obj\Debug\13ESZFirstHomeDissertation.pdb
